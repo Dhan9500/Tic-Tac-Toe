@@ -13,7 +13,6 @@ body {
 #table {
     display: flex;
     align-items: center;
-    /* padding-left: 400px; */
     justify-content: space-evenly;
 }
 #table h2{
@@ -50,7 +49,34 @@ td {
 
 @media(max-width:600px){
     
-    #table h2{
+    .container .jumbotron {
+        background-color: green;
+        color: whitesmoke;
+        /* font-size: 10px; */
+    }
+
+    .container .jumbotron h1{
+        background-color: green;
+        color: whitesmoke;
+        font-size: 30px;
+    }
+    .container .jumbotron p{
+        background-color: green;
+        color: whitesmoke;
+        font-size: 17px;
+    }
+    
+    #table #cx{
+        border: 2px solid red;
+        border-radius: 25px;
+        width: 150px ;
+        text-align: center;
+        font-size: 14px;
+        padding: 5px;
+        rotate: -90deg;
+        
+    }
+    #table #co{
         border: 2px solid red;
         border-radius: 25px;
         width: 150px ;
@@ -66,13 +92,13 @@ td {
         margin-left: 28px;
     }
     td {
-        height: 100px;
-        width: 100px;
+        height: 80px;
+        width: 130px;
         border: 4px solid rebeccapurple;
         left: 100px;
         color: red;
         text-align: center;
-        font-size: 50px;
+        font-size: 30px;
         font-style: italic;
         font-family: 'Times New Roman', Times, serif;
         
